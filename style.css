@@ -4,10 +4,33 @@
     color: white;
 }
 body{
-    background-color: #191919;
+    background-color: #17171a;
 }
 .footermain {
-    background: #202020;
-    border-radius: 10px;
     padding: 10px;
+    display: block;
+    text-align: center;
+    border-top: solid 1px white;
+    border-radius: 10px;
+    border-bottom: solid 1px white;
+    
+}
+
+.withborder {
+    border-radius: 10px;
+    border: solid 1px white;
+}
+.cool1 {
+    width: 66.66%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    text-align: center;
+}
+.mainc {
+    color: white;
 }
