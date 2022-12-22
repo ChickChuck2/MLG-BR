@@ -23,14 +23,24 @@ body{
 .cool1 {
     width: 66.66%;
 }
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-}
 li {
-    text-align: center;
+    display:flex;
 }
 .mainc {
     color: white;
+}
+.RATINHO {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 1%;
+    margin: 5%;
+    border: solid 1px white;
+}
+.post-body {
+    color: #757575;
+    font: 15px Roboto, sans-serif;
+    line-height: 1.6em;
+    margin: 1.5em 0 2em 0;
+    display: block;
 }
